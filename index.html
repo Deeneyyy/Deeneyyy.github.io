@@ -1,44 +1,68 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Designer Portfolio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      /* Smooth scrolling for anchor links */
-      html {
-        scroll-behavior: smooth;
-      }
-      /* Custom scrollbar for a more polished look */
-      body::-webkit-scrollbar {
-        width: 8px;
-      }
-      body::-webkit-scrollbar-track {
-        background: #1f2937; /* bg-gray-800 */
-      }
-      body::-webkit-scrollbar-thumb {
-        background-color: #4f46e5; /* indigo-600 */
-        border-radius: 20px;
-        border: 2px solid #1f2937; /* bg-gray-800 */
-      }
-    </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@^19.1.0",
-    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
-    "react/": "https://esm.sh/react@^19.1.0/",
-    "@google/genai": "https://esm.sh/@google/genai@^1.0.1"
-  }
-}
-</script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>XSQUADS Tech Pvt Ltd</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
-  <body class="bg-gray-900">
-    <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
-  </body>
+<body>
+  <header class="navbar">
+    <div class="logo">XSQUADS</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">News</a>
+      <a href="#">Careers</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <h1>WELCOME</h1>
+    <p>TO XSQUADS TECH PRIVATE LIMITED</p>
+    <p class="desc">We are a dedicated team of developers, designers, artists, programmers, and most importantly gaming enthusiasts. We consistently delight gamers around the globe with our unique Game creations.</p>
+    <img src="images/hero-character.png" alt="Hero Character" class="hero-img" />
+  </section>
+  <section class="what-we-do">
+    <h2>WHAT WE DO?</h2>
+    <p>Here at XSQUADS we pride ourselves in delivering rich and polished experiences that our fanbase can enjoy and immerse themselves into.</p>
+  </section>
+  <section class="scarfall">
+    <h3>OUR PRODUCT</h3>
+    <h1>SCARFALL 2.0<br><span>BATTLE ROYALE</span></h1>
+    <p>ScarFall 2.0 is a made in India battle royale game having huge and realistic maps inspired by real-life locations like the city of Mumbai, Andaman Nicobar Island. Game offers Survival, Respawnable and TDM modes. ScarFall 2.0 also features cultural outfits and assets, which add to the game’s overall appeal.</p>
+    <div class="store-buttons">
+      <img src="images/google-play.png" alt="Google Play">
+      <img src="images/app-store.png" alt="App Store">
+    </div>
+    <img src="images/scarfall-character.png" alt="ScarFall Character" class="scarfall-img" />
+  </section>
+  <section class="about">
+    <h2>About the ScarFall 2.0</h2>
+    <p>ScarFall 2.0 features numerous game modes, maps and seasons that keeps updating regularly to give players a never ending battleground experience that is both fun and challenging to defeat your opponents and reach to the top.</p>
+    <img src="images/about-characters.png" alt="Game Characters" class="about-img" />
+  </section>
+  <section class="community">
+    <h2>JOIN OUR COMMUNITY</h2>
+    <div class="socials">
+      <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
+      <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+      <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+    </div>
+  </section>
+  <section class="news">
+    <h2>NEWS</h2>
+    <div class="news-cards">
+      <img src="images/news1.png" alt="GEM Award">
+      <img src="images/news2.png" alt="IGDC Award">
+    </div>
+  </section>
+  <footer>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    <p>© 2023 All Rights Reserved By XSQUADS Tech Private Limited</p>
+    <div class="footer-logo">XSQUADS</div>
+  </footer>
+</body>
 </html>
-<link rel="stylesheet" href="index.css">
-<script src="index.tsx" type="module"></script>
